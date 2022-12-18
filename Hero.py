@@ -72,7 +72,7 @@ class Villain(Air):
     def crit(self):
         return f'{self.damage **2}'
 evil = Villain('Ivan','kuvalda','strength',300,'я бью 2 раза')
-evil.crit(Air_h.damage)
+evil.crit(Earth_h.damage)
 
 
 
